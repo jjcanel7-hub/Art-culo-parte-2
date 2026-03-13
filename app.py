@@ -43,9 +43,9 @@ st.markdown("<h1 style='text-align: center; color: #2c3e50;'>El terapeuta en tu 
 # 2. SECCIÓN DEL RESUMEN [cite: 7, 8, 9]
 st.markdown("### Resumen")
 st.info("""
-Imagina que a las tres de la mañana, ante una crisis de ansiedad, puedes hablar con una IA 
-entrenada en ciencia psicológica. Este artículo explora si la Inteligencia Artificial es 
-un simple plan B o la evolución definitiva de la terapia moderna. [cite: 42, 43, 45]
+Imagina que son las tres de la mañana. Una crisis de ansiedad o un pensamientorecurrente no te deja dormir. En lugar de esperar semanas por una cita clínica, sacas
+tu teléfono y entablas una conversación con una inteligencia que no solo te escucha, sino que aplica décadas de ciencia psicológica para ayudarte a respirar. Lo que antes parecía ciencia ficción,
+hoy es el campo de batalla de la salud mental moderna. ¿Es la Inteligencia Artificial (IA) un simple "plan B" o estamos ante la evolución definitiva del diván?
 """)
 
 st.divider()
@@ -56,34 +56,53 @@ st.subheader("Explora las secciones del artículo")
 # Tarjeta 1: Evolución
 with st.expander("🔵 De las videollamadas al algoritmo inteligente"):
     st.write("""
-    La telemedicina ha pasado de simples videollamadas a sistemas que aprenden del usuario[cite: 47, 49]. 
-    Investigaciones indican que el formato digital es una alternativa real y efectiva, logrando resultados 
-    idénticos a la terapia presencial[cite: 51]. Incluso, en casos de depresión, la terapia electrónica 
-    ha mostrado ser ligeramente más efectiva[cite: 52].
-    """)
+  Durante años, la "telemedicina" fue poco más que una videollamada glorificada; un intento de eliminar la distancia física manteniendo el formato
+  tradicional (Krzyżaniak et al., 2021). Sin embargo, el concepto ha mutado. Hemos pasado de leer guías en formato PDF a
+  interactuar con sistemas que aprenden de nosotros.
+  
+La ciencia actual sugiere que lo digital ya no es el hermano menor de la terapia presencial. Investigadores como Hedman-Lagerlöf et al. (2023) han demostrado
+que el formato digital es una alternativa real y efectiva para problemas psiquiátricos, logrando resultados prácticamente idénticos a los del cara a cara.
+Incluso, en ciertos casos de depresión, la terapia electrónica ha mostrado ser ligeramente más efectiva en indicadores de severidad que las
+sesiones tradicionales (Luo et al., 2020).
+ """)
 
 # Tarjeta 2: Metodología
 with st.expander("🟢 El código detrás de la empatía"):
     st.write("""
-    La IA utiliza la Teoría Cognitivo-Conductual (TCC) por su estructura lógica basada en tareas[cite: 54, 55]. 
-    Aunque los pacientes ya aceptan la terapia digital con rigor[cite: 58], el gran reto es la personalización: 
-    la IA debe adaptarse a la complejidad de cada caso y no ser una "talla única"[cite: 59, 60].
+   ¿Cómo puede una máquina "entender" nuestro sufrimiento? La respuesta no está en la magia, sino en la Teoría Cognitivo-Conductual (TCC). Al ser una
+   metodología basada en pasos lógicos, tareas estructuradas y objetivos claros, la TCC es el lenguaje perfecto para ser traducido
+   a algoritmos (Kambeitz-Ilankovic et al., 2022).
+   
+Sin embargo, no todo es tan sencillo como programar un bot. La psicología nos enseña que para que alguien sane, debe confiar en el proceso. Aquí entra 
+la aceptabilidad: estudios recientes indican que los pacientes ya aceptan la terapia digital con el mismo rigor que la tradicional (Pauley et al., 2023).
+El reto ahora es la personalización. Erasmus et al. (2025) advierten que la IA no puede ser una "talla única"; debe adaptarse a la complejidad de
+cada caso, especialmente en terapias sistémicas donde las relaciones humanas son el eje central.
+
     """)
 
 # Tarjeta 3: Desafíos
 with st.expander("🟡 El gran desafío: ¿Por qué abandonamos el tratamiento?"):
     st.write("""
-    La adherencia es el mayor obstáculo: es más fácil ignorar una app que a un terapeuta humano[cite: 62, 63]. 
-    La tasa de permanencia baja del 82.4% (presencial) al 72.9% (digital)[cite: 64]. La solución propuesta 
-    es un modelo híbrido: tecnología con respaldo de un profesional humano[cite: 66, 67].
+    Uno de los mayores obstáculos de la salud digital es la adherencia. Es mucho más fácil "dejar en visto" a una aplicación que faltar 
+    a una cita con un terapeuta de carne y hueso. Las cifras lo confirman: mientras que en persona la tasa de permanencia es del 82.4%, en el 
+    mundo digital baja al 72.9% (Kambeitz-Ilankovic et al., 2022).
+    
+Para cerrar esta brecha, la ciencia propone las intervenciones guiadas. No se trata de dejar al paciente solo con la máquina, sino
+de usar la tecnología con el respaldo de un profesional humano. Este modelo híbrido parece ser la llave maestra para asegurar que el 
+tratamiento realmente funcione (Hedman-Lagerlöf et al., 2023).
+.
     """)
 
 # Tarjeta 4: Futuro
 with st.expander("🟣 El futuro: ¿Un mundo sin listas de espera?"):
     st.write("""
-    El objetivo es democratizar el acceso a la salud mental, eliminando barreras geográficas y económicas[cite: 69, 70]. 
-    No se busca reemplazar al psicólogo, sino potenciar su alcance uniendo el rigor científico con la 
-    velocidad tecnológica[cite: 70, 71].
+   La justificación para integrar la IA en la psicología es sólida: si ya sabemos que lo digital funciona (Luo et al., 2020), el siguiente paso
+   es usar la IA para democratizar el acceso a la salud mental. El objetivo no es reemplazar al psicólogo, sino potenciar su alcance, eliminando
+   barreras geográficas y económicas.
+   
+Estamos construyendo un andamiaje donde el rigor de la ciencia y la velocidad de los chips trabajan juntos. La pregunta para el futuro cercano 
+no será si la IA puede ayudarnos, sino cómo diseñaremos estas herramientas para que sigan sintiéndose profundamente humanas.
+
     """)
 
 st.divider()
